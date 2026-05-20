@@ -10,9 +10,9 @@ const TITLES = [
 ]
 
 const SKILL_TAGS = [
-  { label: 'Deep Learning',    delay: '0s',    x: '-130px', y: '-60px' },
-  { label: 'Computer Vision',  delay: '0.5s',  x: '110px',  y: '-80px' },
-  { label: 'Generative AI',    delay: '1s',    x: '-110px', y: '70px'  },
+  { label: 'Deep Learning', delay: '0s', x: '-130px', y: '-60px' },
+  { label: 'Computer Vision', delay: '0.5s', x: '110px', y: '-80px' },
+  { label: 'Generative AI', delay: '1s', x: '-110px', y: '70px' },
 ]
 
 export default function Hero() {
@@ -54,7 +54,7 @@ export default function Hero() {
         gap: '4rem',
         alignItems: 'center',
       }}
-      className="hero-grid"
+        className="hero-grid"
       >
         {/* ── Left: Text Content ── */}
         <div>
@@ -199,9 +199,9 @@ export default function Hero() {
           {/* Social icons */}
           <div style={{ display: 'flex', gap: '1rem' }}>
             {[
-              { href: 'https://linkedin.com/in/yourusername', Icon: Link2,     label: 'LinkedIn' },
-              { href: 'https://github.com/yourusername',      Icon: GitBranch, label: 'GitHub'   },
-              { href: 'mailto:your.email@example.com',        Icon: Mail,     label: 'Email'    },
+              { href: 'https://linkedin.com/in/fathimasalim2002', Icon: Link2, label: 'LinkedIn' },
+              { href: 'https://github.com/Fathimasaleem', Icon: GitBranch, label: 'GitHub' },
+              { href: 'mailto:asfathima2002@gmail.com', Icon: Mail, label: 'Email' },
             ].map(({ href, Icon, label }) => (
               <a
                 key={label}
