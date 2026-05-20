@@ -154,7 +154,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '2.5rem' }}>
             <a
-              href="#projects"
+              href="Fathima_AS_CV.pdf"
               onClick={(e) => {
                 e.preventDefault()
                 const el = document.getElementById('projects')
